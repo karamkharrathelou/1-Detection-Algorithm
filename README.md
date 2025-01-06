@@ -6,7 +6,7 @@
 1.4The values are then visualized to enable visual management of the data.
 1.5Important data indices and values are saved in an HDF5 file, reducing storage space by 90%.
 
-2-Resconstruction -This code reconstructs the detected values from the detection step:
+2-Reconstruction -This code reconstructs the detected values from the detection step:
 2.1-HDF5 files are read.
 2.2A matrix matching the original signal is created, with noise equal to the original noise value.
 2.3The original saved data is appended to the matrix at its original positions, making the reconstructed signal identical to the original signal but 90% smaller in size.
