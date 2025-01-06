@@ -11,7 +11,7 @@
 
 1.5- Important data indices and values are saved in an HDF5 file, reducing storage space by 90%.
 
-2- Reconstruction -This code reconstructs the detected values from the detection step:
+**2- Reconstruction -This code reconstructs the detected values from the detection step:**
 
 2.1- HDF5 files are read.
 
@@ -21,4 +21,4 @@
 
 2.4- A power profile is generated and plotted for visual management.
 
-3- Analysis Algorithms
+**3- Analysis Algorithms:**
