@@ -1,5 +1,5 @@
 # Detaction - Resconstruction - Analyses Algorithms
-## 1. Detection -This code helps identify important values from a large dataset to optimize storage, while saving only one value for noise to allow signal reconstruction if needed:
+## 1. Detection -This code identify important values from a large dataset to optimize storage, while saving only one value for noise to allow signal reconstruction if needed:
 
   **1. SNR (Signal-to-Noise Ratio) values of the data are calculated.**
 
