@@ -2,6 +2,7 @@
 ## 1. Detection -This code helps identify important values from a large dataset to optimize storage, while saving only one value for noise to allow signal reconstruction if needed:
 
   **1. SNR (Signal-to-Noise Ratio) values of the data are calculated.**
+  
      test
 
   **2. Values are selected based on a predefined criterion that can be manually adjusted (a tuner for detection sensitivity).**
