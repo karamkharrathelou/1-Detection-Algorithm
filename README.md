@@ -22,6 +22,9 @@
  **4. A power profile is generated and plotted for visual management.**
 
 ## 3- Analysis Algorithms:
+
  **1. Signal Processing: Emphasis on processing radar signals (FFT, smoothing, SNR calculation).**
+ 
  **2. Data Management: Efficient handling of multi-dimensional radar data using HDF5.**
+ 
  **3. Automation: Automates data processing and visualization for multiple radar files.**
