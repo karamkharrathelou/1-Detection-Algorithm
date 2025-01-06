@@ -1,15 +1,15 @@
 # Detaction -> Resconstruction Algorithms
-## 1- Detection -This code helps identify important values from a large dataset to optimize storage, while saving only one value for noise to allow signal reconstruction if needed:
+## 1. Detection -This code helps identify important values from a large dataset to optimize storage, while saving only one value for noise to allow signal reconstruction if needed:
 
-**1.1- SNR (Signal-to-Noise Ratio) values of the data are calculated.**
+  **1. SNR (Signal-to-Noise Ratio) values of the data are calculated.**
 
-**1.2- Values are selected based on a predefined criterion that can be manually adjusted (a tuner for detection sensitivity).**
+  **2. Values are selected based on a predefined criterion that can be manually adjusted (a tuner for detection sensitivity).**
 
-**1.3- The criterion can also be automatically set as the mean value of the noise.**
+  **3. The criterion can also be automatically set as the mean value of the noise.**
 
-**1.4- The values are then visualized to enable visual management of the data.**
+  **4. The values are then visualized to enable visual management of the data.**
 
-**1.5- Important data indices and values are saved in an HDF5 file, reducing storage space by 90%.**
+  **5. Important data indices and values are saved in an HDF5 file, reducing storage space by 90%.**
 
 ## 2- Reconstruction -This code reconstructs the detected values from the detection step:
 
